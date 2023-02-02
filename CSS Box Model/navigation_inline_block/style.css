@@ -1,0 +1,25 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+nav li a {
+    color: rgb(11, 155, 11);
+    text-decoration: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 20px;    
+}
+
+header nav {
+    display: inline-block;
+}
+h1 {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
