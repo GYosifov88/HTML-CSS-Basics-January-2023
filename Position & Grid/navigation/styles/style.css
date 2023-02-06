@@ -1,0 +1,94 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    padding: 70px;
+}
+
+.article, .sidebar{
+    display: inline-block;
+}
+
+.article {
+    vertical-align: top;
+    width: 80%;
+}
+
+.sidebar {
+    vertical-align: top;
+    width: 19%;
+}
+
+.sidebar a {
+    color: rgb(81, 216, 81);
+    
+}
+
+.sidebar nav ul {
+    list-style: square;
+}
+
+.first_pic {
+    width: 200px;
+    float: right;
+}
+
+.second_pic {
+    float: left;
+}
+
+a{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+header p h1{
+    display: inline-block;
+}
+
+img {
+    border: 3px solid black;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) ;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 2px solid gainsboro;
+    padding: 10px;
+    display: inline-block;
+    color: gray;
+    
+}
+
+
+p {
+    margin: 20px;
+}
+
+.author {
+    text-align: right;
+}
+
+
+.left p {
+    display: inline-block;
+}
+
+.asides ul {
+    list-style: square;
+    margin: 5px;
+}
+aside section {
+    margin: 20px;
+    padding: 10px;
+}

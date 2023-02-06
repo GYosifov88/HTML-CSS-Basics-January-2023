@@ -1,0 +1,34 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+.card {
+    display: block;
+    padding: 10px;
+}
+
+
+section .card {
+    position: absolute;
+}
+
+.card {
+    margin: auto;
+}
+
+.viewport.first {
+    background: linear-gradient(0.25turn, #117286, #92dea4);
+}
+
+.viewport.second {
+    background: linear-gradient(0.25turn,#a7294e, #c66713);
+}
+
+i {
+    position: relative;
+    bottom: 130px;
+    left: 570px;
+    color: white;
+}
+
+img {
+    margin: 100px;
+}
