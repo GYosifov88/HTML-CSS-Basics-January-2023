@@ -1,0 +1,47 @@
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 20px;
+    padding: 0.5rem;
+}
+
+body header h1 {
+    display: flex;
+}
+
+body header nav {
+    display: flex;
+}
+
+header nav ul li a {
+    color: rgb(0, 153, 0);
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 1rem;
+
+}
+
+p {
+    margin: 10px;
+}

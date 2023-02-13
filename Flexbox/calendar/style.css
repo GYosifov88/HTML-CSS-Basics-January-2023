@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65vw;
+    flex-wrap: wrap;
+}
+
+.week, .notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 0.25rem;
+}
+
+.notes {
+    flex-direction: column;
+}
+
