@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+html {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px #AFAFAF;
+    flex-basis: 70%;
+    padding: 20px;
+    max-width: 65vw;
+    min-height: 50vh;
+
+}
+
+.form h1 {
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-content: flex-start;
+}
+
+button{
+    border-radius: 15px;
+    background-color: rgb(199, 17, 17);
+    padding: 5px 10px;
+    color: white;
+    border: 0px;
+    width: fit-content;
+    justify-content: center;
+}
+
+#checkbox {
+    background-color: #AFAFAF;
+}
+.checkbox{
+    display: flex;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    margin: 10px;
+}
